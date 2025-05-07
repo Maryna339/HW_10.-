@@ -1,0 +1,37 @@
+    1  git clone https://github.com/Maryna339/HW_10.-.git
+    2  cd HW_10
+    3  ls
+    4  cd HW_10-/
+    5  cd HW_10.-/
+    6  touch text_ignore.txt
+    7  git status
+    8  git add .
+    9  git status
+   10  git commit -m "Додано text _ignore.txt до .gitignore"
+   11  touch main_test.txt
+   12  git add
+   13  git add .
+   14  git status
+   15  git commit -m "Додано файл main_test.txt"
+   16  git status
+   17  git add .
+   18  git status
+   19  git commit -m "оновлено вміст текстового файлу"
+   20  git checkoutb-b develop
+   21  git checkout -b develop
+   22  touch develop_test.txt
+   23  git add .
+   24  git status
+   25  git commit _m "Додано develop_test.txt"
+   26  git commit -m "Додано develop_test.txt"
+   27  git status
+   28  git add .
+   29  git status
+   30  git commit -m "Оновлно develop_txt"
+   31  git checkout main
+   32  git marge develop
+   33  git merge develop
+   34  git log --online
+   35  git log
+   36  git push origin --all
+   37  history > command_list.csv
